@@ -1,0 +1,16 @@
+# Ignore providers
+provider.tf
+terraform.tfvars
+
+# Local .terraform directories
+**/.terraform/*
+ 
+# .tfstate files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+#keys
+id_rsa
+id_rsa.pub
+authorized_keys
